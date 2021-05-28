@@ -1,10 +1,10 @@
-# Georgewitteman Taps
+# Georgewitteman Tap
 
 ## How do I install these formulae?
 
-`brew install georgewitteman/taps/<formula>`
+`brew install georgewitteman/tap/<formula>`
 
-Or `brew tap georgewitteman/taps` and then `brew install <formula>`.
+Or `brew tap georgewitteman/tap` and then `brew install <formula>`.
 
 ## Documentation
 
