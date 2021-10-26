@@ -13,8 +13,6 @@ class Wkhtmltopdf < Formula
     regex(/href=.*?wkhtmltox-(\d+(?:\.\d+)*-\d+)\.macos-cocoa\.pkg/i)
   end
 
-  bottle :unneeded
-
   def install
     system "pkgutil", "--expand-full", "wkhtmltox-#{version}.macos-cocoa.pkg", "wkhtmltox-#{version}.macos-cocoa"
     system "tar", "ozxf", "wkhtmltox-#{version}.macos-cocoa/Payload/usr/local/share/wkhtmltox-installer/wkhtmltox.tar.gz", "-C", prefix
